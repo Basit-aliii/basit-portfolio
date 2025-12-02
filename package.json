@@ -4,11 +4,11 @@
   "private": true,
   "homepage": "https://Basit-aliii.github.io/basit-portfolio",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build && next export",
-    "start": "next start",
-    "lint": "eslint"
-  },
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "eslint"
+},
   "dependencies": {
     "framer-motion": "^12.23.25",
     "next": "16.0.6",
