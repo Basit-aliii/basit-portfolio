@@ -2,9 +2,10 @@
   "name": "basit-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Basit-aliii.github.io/basit-portfolio",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "eslint"
   },
