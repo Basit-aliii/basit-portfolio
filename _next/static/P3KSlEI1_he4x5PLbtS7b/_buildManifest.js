@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/basit-portfolio//_next/:path+",
+        "destination": "/basit-portfolio/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
